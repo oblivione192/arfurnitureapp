@@ -22,10 +22,13 @@ public class SlidingMenuController : MonoBehaviour
 
     private void Start()
     {
+        if (isMenuVisible)
+            HideMenu();
         screenHeight = Screen.height;
         bottomSwipeThreshold = screenHeight * 0.2f; // bottom 20%
         menuPanel.anchoredPosition = new Vector2(0, hiddenY);
         menuPanel.gameObject.SetActive(false);
+        StartCoroutine (StartWait());
     }
 
     private void Update()
@@ -72,6 +75,13 @@ public class SlidingMenuController : MonoBehaviour
                     break;
             }
         }
+    }
+
+    private IEnumerator StartWait()
+    {
+        menuToggleButton.SetActive(false);
+        yield return new WaitForSeconds(5);
+        menuToggleButton.SetActive(true);
     }
 
     public void ToggleMenu()
