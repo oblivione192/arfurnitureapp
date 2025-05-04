@@ -11,9 +11,12 @@ EditorBuildSettings:
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4caaa6bb7d1ee3045993e25b32f230f4, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: c681942e7573df7469eabe248946f546, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 99e6b6dc39bdfc949962bffe66abcbb8, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f81212b4307af7645a516683cd4b9cb9, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 60fe3a5d0cbdc4f4c96630e4d6d5dfca, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: c6c8a6d31703c1c4795ed2abf21cdb98, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 49a68c221cb8e3a4d95b70d2d2639ca5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6e696740b2057fe4bb17f7856a11e0b8, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: b12f2bb6f6de04b45af490210ea4b97c, type: 2}
   m_UseUCBPForAssetBundles: 0
